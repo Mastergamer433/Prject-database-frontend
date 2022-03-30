@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+					<link rel="stylesheet" href="styles.css">
+          <script src="script.js" type="module"></script>
+        	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	</head>
+  <body>
+    <div class="container">
+			<input placeholder="Project" id="projectInput"/>
+			<input placeholder="Description" id="projectDescriptionInput"/>
+			<select name="typ" id="projectTypeInput">
+				<option value="idea">idea</option>
+				<option value="progressing">progressing</option>
+				<option value="done">done</option>
+			</select>
+			<input placeholder="Your name" id="projectOwner"/>
+			<input placeholder="Coder" id="projectCoder"/>
+			<input placeholder="Prio" id="projectPrio"/>
+			<button id="submit">submit</button>
+			<button id="getProjs">Get Projects</button>
+			<table id="projectTable">
+ 				<tr>
+					<th>Id</th>
+    					<th>Name</th>
+    					<th>Description</th>
+  				</tr>
+			</table>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,9 @@
+table, th, td {
+  border: 1px solid;
+	border-collapse: collapse;
+	padding: 15px;
+  text-align: left;
+}
+table{
+	margin-top: 15px
+}
