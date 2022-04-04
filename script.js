@@ -98,7 +98,7 @@ function viewProjects(obj){
 }
 
 function Remove(id){
-	axios.post('https://api.projects.kimane.se/remove', {id:id})
+	axios.delete('https://api.projects.kimane.se/remove', {id:id})
 }
 
 submitButton.addEventListener('click', submit)
